@@ -1,0 +1,110 @@
+<?xml version="1.0" standalone="yes"?>
+<Data>
+  <xs:schema id="Data" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Data" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="TransactionTable">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TransactionID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+                <xs:element name="Transactions" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ItemsetTable">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ItemID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+                <xs:element name="Itemset" type="xs:string" />
+                <xs:element name="Level" type="xs:int" minOccurs="0" />
+                <xs:element name="SupportCount" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SubsetTable">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FirstKeyID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+                <xs:element name="ItemID" type="xs:int" />
+                <xs:element name="SubsetID" type="xs:int" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="RulesTable">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FirstKeyID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+                <xs:element name="LeftRule" type="xs:int" minOccurs="0" />
+                <xs:element name="RightRule" type="xs:int" minOccurs="0" />
+                <xs:element name="Confidence" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//TransactionTable" />
+        <xs:field xpath="TransactionID" />
+      </xs:unique>
+      <xs:unique name="ItemsetTable_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ItemsetTable" />
+        <xs:field xpath="ItemID" />
+      </xs:unique>
+      <xs:unique name="Constraint2">
+        <xs:selector xpath=".//ItemsetTable" />
+        <xs:field xpath="Itemset" />
+      </xs:unique>
+      <xs:unique name="SubsetTable_Constraint1" msdata:ConstraintName="Constraint1">
+        <xs:selector xpath=".//SubsetTable" />
+        <xs:field xpath="FirstKeyID" />
+      </xs:unique>
+      <xs:unique name="SubsetTable_Constraint2" msdata:ConstraintName="Constraint2" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//SubsetTable" />
+        <xs:field xpath="FirstKeyID" />
+        <xs:field xpath="ItemID" />
+        <xs:field xpath="SubsetID" />
+      </xs:unique>
+      <xs:unique name="RulesTable_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//RulesTable" />
+        <xs:field xpath="FirstKeyID" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <TransactionTable>
+    <TransactionID>1</TransactionID>
+    <Transactions>Books, CD, Video</Transactions>
+  </TransactionTable>
+  <TransactionTable>
+    <TransactionID>2</TransactionID>
+    <Transactions>CD, Games</Transactions>
+  </TransactionTable>
+  <TransactionTable>
+    <TransactionID>3</TransactionID>
+    <Transactions>CD, DVD</Transactions>
+  </TransactionTable>
+  <TransactionTable>
+    <TransactionID>4</TransactionID>
+    <Transactions>Books, CD, Games</Transactions>
+  </TransactionTable>
+  <TransactionTable>
+    <TransactionID>5</TransactionID>
+    <Transactions>Books, DVD</Transactions>
+  </TransactionTable>
+  <TransactionTable>
+    <TransactionID>6</TransactionID>
+    <Transactions>CD, DVD</Transactions>
+  </TransactionTable>
+  <TransactionTable>
+    <TransactionID>7</TransactionID>
+    <Transactions>Books, DVD</Transactions>
+  </TransactionTable>
+  <TransactionTable>
+    <TransactionID>8</TransactionID>
+    <Transactions>Books, CD, DVD, Video</Transactions>
+  </TransactionTable>
+  <TransactionTable>
+    <TransactionID>9</TransactionID>
+    <Transactions>Books, CD, DVD</Transactions>
+  </TransactionTable>
+</Data>

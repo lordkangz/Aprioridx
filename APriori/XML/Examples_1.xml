@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<Data>
+  <xs:schema id="Data" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Data" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TransactionID" type="xs:string" minOccurs="0" />
+                <xs:element name="Transactions" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <TransactionID>1</TransactionID>
+    <Transactions>I1, I2, I5</Transactions>
+  </Table>
+  <Table>
+    <TransactionID>2</TransactionID>
+    <Transactions>I2, I4</Transactions>
+  </Table>
+  <Table>
+    <TransactionID>3</TransactionID>
+    <Transactions>I2, I3</Transactions>
+  </Table>
+  <Table>
+    <TransactionID>4</TransactionID>
+    <Transactions>I1, I2, I4</Transactions>
+  </Table>
+  <Table>
+    <TransactionID>5</TransactionID>
+    <Transactions>I1, I3</Transactions>
+  </Table>
+  <Table>
+    <TransactionID>6</TransactionID>
+    <Transactions>I2, I3</Transactions>
+  </Table>
+  <Table>
+    <TransactionID>7</TransactionID>
+    <Transactions>I1, I3</Transactions>
+  </Table>
+  <Table>
+    <TransactionID>8</TransactionID>
+    <Transactions>I1, I2, I3, I5</Transactions>
+  </Table>
+  <Table>
+    <TransactionID>9</TransactionID>
+    <Transactions>I1, I2, I3</Transactions>
+  </Table>
+</Data>

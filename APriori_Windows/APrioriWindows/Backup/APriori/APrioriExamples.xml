@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Documentation>
+	<SourceCode name="Copyright">
+		<summary>
+			Copyright 2002, Kingsley Tagbo. All Rights Reserved. HTTP://WWW.VISUAL-BASIC-DATA-MINING.NET.		
+		</summary>
+	</SourceCode>
+	<SourceCode name="StartingSampleA">
+		<summary>
+			<para>
+			To reference the Namespace.
+			<code>
+			using APriori;
+			</code>
+			</para>
+			<para>
+			To instantiate the Apriori classes.
+			<code>
+					<list type="bullet">
+						<item>
+							<description>
+						APriori.Database DB = new APriori.Database();
+					</description>
+						</item>
+						<item>
+							<description>
+				APriori.Apriori shoppingCart = new APriori.Apriori();
+					</description>
+						</item>
+						<item>
+							<description>
+				APriori.ItemsetCandidate itemSet = new APriori.ItemsetCandidate();
+					</description>
+						</item>
+						<item>
+							<description>
+				APriori.ItemsetFrequent frequentSet = new APriori.ItemsetFrequent();
+					</description>
+						</item>
+					</list>
+				</code>
+			</para>
+		</summary>
+	</SourceCode>
+	<SourceCode name="StartingSampleB">
+		<summary>
+			<para>
+				<example>
+					A database has 9 transactions. 
+					Find the items that are usually bought together by customers.
+					
+					Transaction 1: {Books, CD, DVD}
+					Transaction 2: {CD, Games}
+					Transaction 3: {CD, DVD}
+					Transaction 4: {Books, CD, Games}
+					Transaction 5: {Books, DVD}
+					Transaction 6: {CD, DVD}
+					Transaction 7: {Books, DVD}
+					Transaction 8: {Books, CD, DVD, Video}
+					Transaction 9: {Books, CD, DVD}
+		</example>
+			</para>
+			<para>
+			Instantiate a database class and add each transaction to the database.
+			<example>
+				using APriori;
+				
+				Database DAO = new Database();				
+				
+				DAO.AddTransaction(Books, CD, DVD);
+			
+				DAO.AddTransaction(CD, Games);
+
+				DAO.AddTransaction(CD, DVD);
+
+				DAO.AddTransaction(Books, CD, Games);
+
+				DAO.AddTransaction(Books, DVD);
+
+				DAO.AddTransaction(CD, DVD);
+
+				DAO.AddTransaction(Books, DVD);
+
+				DAO.AddTransaction(Books, CD, DVD, Video);
+
+				DAO.AddTransaction(Books, CD, DVD);
+			</example>
+			</para>
+			<para>
+			Add the individuals items to the database.
+			<example>
+			
+				//Instantiate a class that represents a set of candidate items
+				ItemsetCandidate Item = new ItemsetCandidate();
+				
+				//Instantiate the ItemsetArrayList class that represents an individual item	
+				ItemsetArrayList start_items = new ItemsetArrayList(2);
+
+				start_items.Add("Books");
+
+				start_items.Sort();
+
+				start_items.Capacity = start_items.Count;
+
+				Item.Items.Add(start_items);
+				
+				Item.Level = 1;
+			</example>
+			Repeat the above code for all the items : CD, DVD, Games, Videos
+			</para>
+			<para>
+			Instantiate the Apriori class and create the Itemsets and their subsets.
+			<example>
+			APriori.Apriori AP = new APriori.Apriori();
+			
+			//The minimum support count is 2
+			AP.AprioriGenerator(Item,DAO,2);
+			
+			
+			</example>
+			</para>
+		</summary>
+	</SourceCode>
+	<SourceCode name="StartingSampleC">
+		<summary>
+			<para>
+				<example>
+					<TransactionTable>
+						<TransactionID>1</TransactionID>
+						<Transactions>Books, CD, Video</Transactions>
+					</TransactionTable>
+					<TransactionTable>
+						<TransactionID>2</TransactionID>
+						<Transactions>CD, Games</Transactions>
+					</TransactionTable>
+					<TransactionTable>
+						<TransactionID>3</TransactionID>
+						<Transactions>CD, DVD</Transactions>
+					</TransactionTable>
+					<TransactionTable>
+						<TransactionID>4</TransactionID>
+						<Transactions>Books, CD, Games</Transactions>
+					</TransactionTable>
+					<TransactionTable>
+						<TransactionID>5</TransactionID>
+						<Transactions>Books, DVD</Transactions>
+					</TransactionTable>
+					<TransactionTable>
+						<TransactionID>6</TransactionID>
+						<Transactions>CD, DVD</Transactions>
+					</TransactionTable>
+					<TransactionTable>
+						<TransactionID>7</TransactionID>
+						<Transactions>Books, DVD</Transactions>
+					</TransactionTable>
+					<TransactionTable>
+						<TransactionID>8</TransactionID>
+						<Transactions>Books, CD, DVD, Video</Transactions>
+					</TransactionTable>
+					<TransactionTable>
+						<TransactionID>9</TransactionID>
+						<Transactions>Books, CD, DVD</Transactions>
+					</TransactionTable>
+				</example>
+			</para>
+		</summary>
+	</SourceCode>
+</Documentation>

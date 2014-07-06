@@ -1,0 +1,16 @@
+Copyright (c) 2001 - 2002, KINGSLEY TAGBO, HTTP://WWW.VISUAL-BASIC-DATA-MINING.NET. 
+
+
+NO WARRANTY : THE INFORMATION AND CODE PROVIDED HEREUNDER (COLLECTIVELY REFERRED TO AS SOFTWARE) IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL THE SOFTWARE'S DEVELOPER(S) BE LIABLE FOR ANY DAMAGES WHATSOEVER INCLUDING DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, LOSS OF BUSINESS PROFITS OR SPECIAL DAMAGES, EVEN IF THE SOFTWARE'S DEVELOPER(S) HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES SO THE FOREGOING LIMITATION MAY NOT APPLY.
+
+LEGAL NOTICE: 
+1. THIS SOFTWARE AND SOURCE CODE IS COPYRIGHTED TO KINGSLEY TAGBO, HTTP:// WWW.VISUAL-BASIC-DATA-MINING.NET. 
+KINGSLEY TAGBO, HTTP:// WWW.VISUAL-BASIC-DATA-MINING.NET RETAINS FULL COPYRIGHTS OVER THE SOFTWARE, SOURCE CODE, ARTICLE AND DOCUMENTATION. 
+
+TERMS AND CONDITIONS FOR USE, COPYING, DISTRIBUTION AND MODIFICATION: 
+2. You May Not Distribute This Software Without Written Permission from KINGSLEY TAGBO, HTTP:// WWW.VISUAL-BASIC-DATA-MINING.NET. 
+This Software may be used, modified or incorporated into your software product(s) royalty-free subject to the following conditions: 
+3. You must place all copyright notices and other protective disclaimers and notices contained on this Software on all copies of this Software, your software PRODUCT and accompanying documentation. If this Software or parts of this Software is incorporated into your software product you must also include all copyright notices and other protective disclaimers and notices contained on this Software on your software product and accompanying documentation. 
+4. You may not distribute this Software for profit. 
+5. You agree to indemnify, hold harmless, and defend the Software’s Developer(s) from and against any claims or lawsuits, including attorneys fees, that arise or result from the use or distribution of your software product, this Software and/or any modifications to this Software. 
+6. You must acknowledge KINGSLEY TAGBO, HTTP:// WWW.VISUAL-BASIC-DATA-MINING.NET in accompanying documentation as the source of this Software. 

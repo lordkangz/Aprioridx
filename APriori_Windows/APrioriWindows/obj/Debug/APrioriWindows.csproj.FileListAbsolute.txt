@@ -1,0 +1,10 @@
+D:\Docs\MSc\ThesisApriori\market basket analysis\APriori_Windows\APrioriWindows\obj\Debug\APrioriWindows.exe
+D:\Docs\MSc\ThesisApriori\market basket analysis\APriori_Windows\APrioriWindows\obj\Debug\APrioriWindows.pdb
+D:\Docs\MSc\ThesisApriori\market basket analysis\APriori_Windows\APrioriWindows\bin\Debug\APrioriWindows.exe
+D:\Docs\MSc\ThesisApriori\market basket analysis\APriori_Windows\APrioriWindows\bin\Debug\APrioriWindows.pdb
+D:\Docs\MSc\ThesisApriori\market basket analysis\APriori_Windows\APrioriWindows\bin\Debug\ShoppingCartSalesDataMining.dll
+D:\Docs\MSc\ThesisApriori\market basket analysis\APriori_Windows\APrioriWindows\bin\Debug\ShoppingCartSalesDataMining.pdb
+D:\Docs\MSc\ThesisApriori\market basket analysis\APriori_Windows\APrioriWindows\obj\Debug\APrioriWindows.csprojResolveAssemblyReference.cache
+D:\Docs\MSc\ThesisApriori\market basket analysis\APriori_Windows\APrioriWindows\obj\Debug\APrioriWindows.ConnectionDialogBox.resources
+D:\Docs\MSc\ThesisApriori\market basket analysis\APriori_Windows\APrioriWindows\obj\Debug\APrioriWindows.MarketBasedAnalysis.resources
+D:\Docs\MSc\ThesisApriori\market basket analysis\APriori_Windows\APrioriWindows\obj\Debug\APrioriWindows.csproj.GenerateResource.Cache

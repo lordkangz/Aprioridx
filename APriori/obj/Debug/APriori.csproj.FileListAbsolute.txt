@@ -1,0 +1,5 @@
+D:\Docs\MSc\ThesisApriori\market basket analysis\APriori\obj\Debug\APriori.csprojResolveAssemblyReference.cache
+D:\Docs\MSc\ThesisApriori\market basket analysis\APriori\obj\Debug\ShoppingCartSalesDataMining.dll
+D:\Docs\MSc\ThesisApriori\market basket analysis\APriori\bin\Debug\ShoppingCartSalesDataMining.dll
+D:\Docs\MSc\ThesisApriori\market basket analysis\APriori\bin\Debug\ShoppingCartSalesDataMining.pdb
+D:\Docs\MSc\ThesisApriori\market basket analysis\APriori\obj\Debug\ShoppingCartSalesDataMining.pdb

@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<Data>
+  <TransactionTable>
+    <TransactionID>1</TransactionID>
+    <Transactions>I1, I2, I5</Transactions>
+  </TransactionTable>
+  <TransactionTable>
+    <TransactionID>2</TransactionID>
+    <Transactions>I2, I4</Transactions>
+  </TransactionTable>
+  <TransactionTable>
+    <TransactionID>3</TransactionID>
+    <Transactions>I2, I3</Transactions>
+  </TransactionTable>
+  <TransactionTable>
+    <TransactionID>4</TransactionID>
+    <Transactions>I1, I2, I4</Transactions>
+  </TransactionTable>
+  <TransactionTable>
+    <TransactionID>5</TransactionID>
+    <Transactions>I1, I3</Transactions>
+  </TransactionTable>
+  <TransactionTable>
+    <TransactionID>6</TransactionID>
+    <Transactions>I2, I3</Transactions>
+  </TransactionTable>
+  <TransactionTable>
+    <TransactionID>7</TransactionID>
+    <Transactions>I1, I3</Transactions>
+  </TransactionTable>
+  <TransactionTable>
+    <TransactionID>8</TransactionID>
+    <Transactions>I1, I2, I3, I5</Transactions>
+  </TransactionTable>
+  <TransactionTable>
+    <TransactionID>9</TransactionID>
+    <Transactions>I1, I2, I3</Transactions>
+  </TransactionTable>
+</Data>

@@ -194,7 +194,7 @@ namespace VISUAL_BASIC_DATA_MINING_NET
 			
 				myItemset.AllowDBNull = false;
 
-				myItemset.Unique = true;
+				myItemset.Unique = false;
 
 				itemsTable.Columns.Add(myItemset);
 

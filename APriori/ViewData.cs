@@ -214,8 +214,8 @@ namespace VISUAL_BASIC_DATA_MINING_NET
 				newRow["Analysis"] = itemLeftRow.Itemset + "  -->  " + itemRightRow.Itemset;
 	
 			
-				newRow["Confidence"] = ((ruleRow.Confidence) * (100) + "%");
-
+				newRow["Confidence%"] = ((ruleRow.Confidence) * (100) + "%");
+             
 				
 				this.viewRulesTable.Rows.Add(newRow);
 				
@@ -284,8 +284,8 @@ namespace VISUAL_BASIC_DATA_MINING_NET
 					newRow["Analysis"] = itemLeftRow.Itemset + "  -->  " + itemRightRow.Itemset;
 	
 			
-					newRow["Confidence"] = ((ruleRow.Confidence) * (100) + "%");
-
+					//newRow["Confidence"] = ((ruleRow.Confidence) * (100) + "%");
+                    newRow["Confidence"] = ((Math.Round(ruleRow.Confidence,4)) * (100));
 				
 					this.viewRulesTable.Rows.Add(newRow);
 

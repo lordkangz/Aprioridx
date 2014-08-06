@@ -426,7 +426,7 @@ namespace VISUAL_BASIC_DATA_MINING_NET
 		public override OleDbCommand CreateSelectCommand()
 		{
 			this.oleDbSelectCommand.CommandText = "SELECT TransactionID, Transactions FROM TransactionsTable";
-
+            //this.oleDbSelectCommand.CommandText = "SELECT TransactionID, Transactions FROM tbl_dxtransformed";
 			this.oleDbSelectCommand.Connection = this.oleDbConnection;
 
 			return this.oleDbSelectCommand;

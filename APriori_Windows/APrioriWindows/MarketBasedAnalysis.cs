@@ -156,7 +156,7 @@ namespace APrioriWindows
             this.groupBox1.Size = new System.Drawing.Size(976, 528);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "C#.NET Market Based Data Mining Analysis";
+            this.groupBox1.Text = "Disease Diagnosis Association Analysis";
             // 
             // groupBoxCommands
             // 
@@ -205,7 +205,7 @@ namespace APrioriWindows
             this.txtMinimumConfidence.Name = "txtMinimumConfidence";
             this.txtMinimumConfidence.Size = new System.Drawing.Size(144, 21);
             this.txtMinimumConfidence.TabIndex = 2;
-            this.txtMinimumConfidence.Text = "20";
+            this.txtMinimumConfidence.Text = "50";
             this.txtMinimumConfidence.Validating += new System.ComponentModel.CancelEventHandler(this.txtMinimumConfidence_Validating);
             // 
             // lblSupportCount
@@ -307,7 +307,7 @@ namespace APrioriWindows
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MarketBasedAnalysis";
-            this.Text = "Market Based Analysis";
+            this.Text = "Diagnosis Analysis";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.MarketBasedAnalysis_Load);
             this.groupBox1.ResumeLayout(false);
